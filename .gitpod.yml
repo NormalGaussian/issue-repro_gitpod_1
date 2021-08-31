@@ -1,8 +1,3 @@
-# image includes neovim runtime
-image: normalgaussianfeb2020/gitpod-workspace-full-with-neovim:latest
-
 vscode:
   extensions:
-    - ms-azuretools.vscode-docker
-    - eamodio.gitlens
     - https://gitlab.com/Normal_Gaussian/gitpod-workspace-full-with-neovim/-/raw/main/vscode-neovim.vsix
